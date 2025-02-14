@@ -1,0 +1,26 @@
+body {
+    font-family: Rog Fonts;
+    background-color: rgb(15, 23, 42);
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    text-align: center;
+    padding: 50px 20px;
+    
+}
+
+.title {
+    font-size: 56px;
+    font-weight: bold;
+    color: #00a85a;
+}
+.subtitle {
+    font-size: 18px;
+    color: #71787e;
+
+}
+.option {
+    
+}
