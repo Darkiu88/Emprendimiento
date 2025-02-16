@@ -1,0 +1,125 @@
+/* Estilos generales */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0F172A;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column; /* En móvil, imagen arriba y texto abajo */
+  align-items: center;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Rog Fonts';
+  color: #00a85a;
+}
+
+.hero-description {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #71787e;
+}
+
+.Button-asa{
+  color: #00a85a;
+}
+
+.hero-image {
+  margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 350px;
+}
+
+.hero-button {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+  background-color: #00a85a;
+}
+
+/* Estilos para pantallas grandes (ordenador) */
+@media (min-width: 769px) {
+  .hero-container {
+      flex-direction: column-reverse; /* En PC, texto arriba e imagen abajo */
+      text-align: center;
+  }
+}
+
+  
+    .hero-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .hero-content {
+      width: 100%;
+    }
+  
+    .hero-title {
+      font-size: 36px;
+    }
+  
+    .hero-description {
+      margin-top: 20px;
+    }
+  
+    .hero-button {
+      margin-top: 20px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .hero-image {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .hero-image-mobile img {
+      width: 100%;
+      max-width: 350px; /* Limita el tamaño de la imagen */
+    }
+  
+    .option {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .option-button {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .custom-buttons {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .custom-button, .custom-button-prebuild {
+      width: 100%;
+    }
+    
+  

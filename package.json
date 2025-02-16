@@ -1,0 +1,15 @@
+{
+  "name": "greentechpc",
+  "version": "1.0.0",
+  "description": "**Greentechpc** es una tienda en línea especializada en la creación de gabinetes gamer personalizados. Ofrecemos gabinetes pre-armados y la opción de personalizar cada uno para que se ajuste a tus gustos y necesidades. Además, con nuestra herramienta de personalización impulsada por ChatGPT, puedes crear un gabinete único en minutos, con recomendaciones personalizadas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}

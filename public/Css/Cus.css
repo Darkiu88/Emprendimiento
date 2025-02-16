@@ -1,0 +1,120 @@
+body {
+  background-color: rgb(15, 23, 42);
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.title {
+  font-family: "Rog Fonts", sans-serif;
+  font-size: 56px;
+  font-weight: bold;
+  color: #00a85a;
+}
+.subtitle {
+  font-size: 18px;
+  color: #71787e;
+}
+.option {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 3%;
+}
+
+.option-button {
+  font-size: 20px;
+  padding: 15px 30px;
+  background-color: #00a85a;
+  color: #0f172a;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3 ease;
+}
+
+.option-button:hover {
+  background-color: #007b4a;
+}
+
+.action-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ca7f45;
+}
+
+.section-descripcion {
+  font-size: 16px;
+  color: #acabac;
+  margin-bottom: 30px;
+}
+
+.custom-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.custom-button,
+.custom-button-prebuild {
+  display: inline-block;
+  padding: 15px 40px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #00a85a;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+  text-align: center;
+}
+
+.custom-button-prebuild {
+  background-color: #f9a825;
+}
+
+.custom-button:hover {
+  background-color: #007b4a;
+}
+
+.custom-button-prebuild:hover {
+  background-color: #c7911e;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 40px;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .option {
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .option-button {
+    max-width: 500px;
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+  }
+  .section-title{
+    font-size: 35px;
+  }
+  .section-descripcion{
+    font-size: 15px;
+  }
+
+}
