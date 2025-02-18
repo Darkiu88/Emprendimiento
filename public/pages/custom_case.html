@@ -8,27 +8,21 @@
 </head>
 <body>
     <h1 class="title">Crea tu propio gabiente personalizado!</h1>
-    <form id="custom-form">
-        <label for="hero-description">Describe tu gabinete ideal:</label>
-        <textarea name="" id="description" rows="4" required></textarea>
-        <button type="submit">Obtener recomendacion</button>
-    </form>
-    <div id="recomendation"></div>
+    <p>Bienvenido en esta pagina conoseras como personalizar tu computadora a tu estilo <br>De momento ahora solo tenemos estos modelos de computadoras</p>
+    <section class="Pc_Contenido">
+        <img src="" alt="">
+        <p></p>
 
-    <script>
-        document.getElementById('custom-form').addEventListener('submit', async (e) => {
-            e.preventDefault();
-            const description = document.getElementById('description').value;
+    </section>
+    <section class="Pc_             ">
+        <img src="" alt="">
+        <p></p>
+    </section>
+    <section class="Pc_">
+        <img src="" alt="">
+        <p></p>
+    </section>
 
-            const response = await fetch('/netlify/functions/chatgpt',{
-                method: 'POST',
-                body: JSON.stringify({description }),
-                headers: { 'content-type' : 'application/json'}
-            });
 
-            const data = await response.json();
-            document.getElementById('recommendation').innerHTML = `<p>${data.recommendation}</p>`;
-        });
-    </script>
 </body>
 </html>
